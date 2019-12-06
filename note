@@ -2,3 +2,9 @@
 https://visualgo.net/zh/sorting
 各种数据结构图解
 https://visualgo.net/zh
+
+
+打印网页
+var printData = document.getElementById("issue-content").innerHTML
+window.document.body.innerHTML = printData
+window.print()
